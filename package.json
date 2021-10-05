@@ -1,0 +1,33 @@
+{
+	"name":    "@vadym.gidulian/bloom-filter-uuid",
+	"version": "1.0.0",
+	
+	"description": "A Bloom filter for UUIDs",
+	"keywords": [
+		"bloom",
+		"bloom filter",
+		"data structure",
+		"filter",
+		"probabilistic",
+		"uuid"
+	],
+	
+	"main":  "src/index.js",
+	"types": "src/index.d.ts",
+	
+	"scripts": {
+		"test": "node test"
+	},
+	
+	"engines": {
+		"node": ">=12"
+	},
+	
+	"dependencies": {
+		"uuid": "8.3.2"
+	},
+	"devDependencies": {
+		"jest":        "27.2",
+		"lodash.omit": "4.5"
+	}
+}
